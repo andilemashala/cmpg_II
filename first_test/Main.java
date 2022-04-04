@@ -4,7 +4,7 @@ package  com.company;
 //Question 1
 class TeeShirt{
     int order_number;
-    int price;
+    private int price;
     String size, color;
 
     public void setOrder_number(int order_number) {
@@ -102,8 +102,6 @@ public class Main{
 
         System.out.printf("Size:%s %nPrice: %d, %nColor: %s %nOrderNumber: %d %nSlogan: %s\n\n",
                 t2.getSize(), price2, t2.getColor(), t2.getOrder_number(), t2.getSlogan());
-
-        System.out.printf("New size is : %d\n", t2.getPrice());
 
 
         //question 2
