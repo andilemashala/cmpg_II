@@ -24,6 +24,7 @@ public  class Main {
         for(int i = 0; i < len; i++){
             if(fArr[i].friend_name == name){
                 System.out.println(fArr[i].getFriend_name() +": "+ fArr[i].getCell_phone_number());
+                return;
             }
             else{
                 System.out.println("Name not found");
