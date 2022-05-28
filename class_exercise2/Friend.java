@@ -59,6 +59,7 @@ class Friend implements Comparable<Friend> {
     @Override
     public int compareTo(Friend f){
         return friend_name.compareTo(f.getFriend_name());
+        //if we were comparing with age, it would be (return this.age - f.age)
     }
 
 }
